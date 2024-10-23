@@ -25,7 +25,8 @@ To set up the project, follow these steps:
    ```bash
    git clone https://github.com/Abdulqadeer4122/air-quality-api.git
    cd air-quality-api
-```## Create a virtual environment:
+   ```
+## Create a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
