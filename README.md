@@ -25,30 +25,28 @@ To set up the project, follow these steps:
    ```bash
    git clone https://github.com/Abdulqadeer4122/air-quality-api.git
    cd air-quality-api
-```
-
-## Create a virtual environment:
+```## Create a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
-##Install dependencies:
+## Install dependencies:
 ```bash 
 pip install -r requirements.txt
 ```
-##Run the application:
+## Run the application:
 
 ```bash
 uvicorn app.main:app --reload --port 8001
 ```
-##Usage
+## Usage
 Once the server is running, you can access the API documentation at:
 ```bash
 http://127.0.0.1:8001/docs
 ```
-###You can use tools like Postman or curl to test the API endpoints.
+### You can use tools like Postman or curl to test the API endpoints.
 
-##API Endpoints
+## API Endpoints
 ```bash
 Method	Endpoint	Description
 GET	/data	Retrieve all available data
@@ -59,9 +57,9 @@ DELETE	/data/{id}	Delete a data entry
 GET	/data/filter?lat={lat}&long={long}	Filter data based on latitude and longitude
 GET	/data/stats	Provide basic statistics on PM2.5 levels
 ```
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-##Contributing
+## Contributing
 Contributions are welcome! Please create a pull request or open an issue for any enhancements or bug fixes.
-##Contact
+## Contact
 For any inquiries, feel free to reach out via abdul.qadeer4122@gmail.com.
